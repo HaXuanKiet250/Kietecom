@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+}
+
+.Search {
+    width: 1440px;
+    background: rgb(255, 255, 255);
+    height: 2680px;
+    margin: 0px auto;
+}
+
+.Navbar {
+    Width: 1440px;
+    height: 104px;
+    background: white;
+}
+
+.hinh-1 {
+    width: 32px;
+    height: 32px;
+    padding-top: 40px;
+    padding-left: 80px;
+
+}
+
+.hinh-2 {
+    width: 135px;
+    height: 56px;
+    padding-top: 40px;
+    padding-left: 80px
+}
+
+.hinh-3 {
+    width: 532px;
+    height: 48px;
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-left: 80px;
+
+}
+
+.hinh-4 {
+    width: 84px;
+    height: 24px;
+    padding-left: 50px;
+    padding-top: 40px;
+
+}
+
+.hinh-5 {
+    width: 94px;
+    height: 24px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.hinh-6 {
+    width: 75px;
+    height: 24px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.Beard {
+    width: 1440px;
+    height: 86px;
+    top: 104px;
+    background: rgba(218, 249, 229, 1)
+}
+
+.Beard>p {
+    color: rgb(13, 64, 32);
+    font-size: 18px;
+    margin: auto;
+    width: 1440px;
+    height: 86px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    font-weight: bold;
+}
+
+.phan-2 {
+    padding-left: 80px;
+}
+
+.result>a {
+    width: 816px;
+    height: 37px;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    margin: 0px auto;
+    padding-left: 15px;
+}
+
+.Filter {
+    float: left;
+    width: 400px;
+    height: 879px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(57, 52, 52);
+    margin-top: 100px;
+
+}
+
+.List {
+    float: left;
+    width: 845px;
+    height: 1737px;
+    /* border-style: solid ;
+    border-width: 3px;
+    border-color:rgb(60, 56, 56); */
+}
+
+aside.List {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.Departments {
+    width: 352px;
+    height: 29px;
+    font-family: Arial;
+    margin: 0 auto;
+}
+
+.checkbox {
+    Width: 214px;
+    Height: 264px;
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+.Brands {
+    width: 352px;
+    height: 29px;
+    font-family: Arial;
+    margin: 0 auto;
+    margin-top: 350px;
+}
+
+.checkbox2 {
+    Width: 352px;
+    Height: 296px;
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+.Nutrition {
+    margin: 0 auto;
+    margin-top: 300px;
+    width: 352px;
+    height: 29px;
+}
+
+.list {
+    width: 192px;
+    height: 457px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.list1 {
+    width: 320px;
+    height: 32px;
+    padding-top: 100px;
+}
+
+/* .Footer{
+    width: 1232px;
+height: 320px;
+border-style: solid ;
+    border-width: 3px;
+    border-color:rgb(60, 56, 56);
+} */
+.list2 {
+
+    width: 1232px;
+    height: 320px;
+    margin: 0px auto;
+    padding-left: 80px;
+
+
+}
