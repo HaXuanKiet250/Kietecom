@@ -1,26 +1,23 @@
-import
+
+import Search from '../Search';
+import className from 'classnames/bind';
 
 
 
-    function Header() {
-        return (
+const cx = classNames.bind(style);
 
-            <Header className={cx('wrapper')}>
-                <div className={cx('inner')}>
-                    <img src="">
+function Header() {
+    return (
 
-                    </img>
-                </div>
+        <Header className={cx('wrapper')}>
+            <div className={cx('inner')}>
+                <img src=""></img>
+            </div>
 
-                <div className={cx('Search')}>
-
-                    <input placeholder="Search food" spellCheck=false> </input>
-
-
-                </div>
-
-            </Header>
-        )
-
-
-    }
+            <div className={cx('Search')}>
+                <input placeholder="Search food"> </input>
+                <button className={cx('Search btn')} ><i class='bx bx-search-alt-2'>{/* Search  */}</i></button>
+            </div>
+        </Header>
+    )
+}

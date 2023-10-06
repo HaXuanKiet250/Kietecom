@@ -1,5 +1,5 @@
-function About() {
-    return <h3>About page</h3>;
+function Combined() {
+    return <h3>Combined page</h3>;
 }
 
-export default About;
+export default Combined;

@@ -1,5 +1,5 @@
-function Home() {
-    return <h3>Home page</h3>;
+function Wishlist() {
+    return <h3>Wishlist page</h3>;
 }
 
-export default Home;
+export default Wishlist;

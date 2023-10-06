@@ -1,5 +1,5 @@
-function Dashboard() {
-    return <h3>Dashboard page</h3>;
+function Sign() {
+    return <h3>Sign page</h3>;
 }
 
-export default Dashboard;
+export default Sign;
