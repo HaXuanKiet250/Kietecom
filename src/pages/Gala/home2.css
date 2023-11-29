@@ -3,7 +3,49 @@ div.over {
     height: 796px;
     position: relative;
     bottom: 140px;
-    background: linear-gradient(110.05deg, rgba(0, 0, 0, 0.6) -16.93%, rgba(0, 0, 0, 0) 109.91%, rgba(0, 0, 0, 0) 109.92%);
+
+}
+
+img.ggg2 {
+    width: 1440px;
+    height: 796px;
+    position: relative;
+    border-radius: 5px;
+}
+
+img.max {
+    width: 400px;
+    height: 280px;
+    position: relative;
+    border-radius: 8px;
+}
+
+img.sdm {
+    width: 400px;
+    height: 280px;
+    position: relative;
+    border-radius: 8px;
+}
+
+img.fresh {
+    width: 400px;
+    height: 280px;
+    position: relative;
+    border-radius: 8px;
+}
+
+img.lol1 {
+    width: 192px;
+    height: 280px;
+    border-radius: 5px;
+
+}
+
+img.lol2 {
+
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
 }
 
 p.over1 {
@@ -16,17 +58,32 @@ p.over1 {
     letter-spacing: 0.003em;
     text-align: left;
     margin: 0px;
-    top: 235px;
+    bottom: 680px;
     position: relative;
-    left: 200px;
+    left: 375px;
+}
+
+button.buttan1 {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: rgba(35, 121, 67, 1);
+    cursor: pointer;
+    transition: border-color 0.25s;
+    width: 192px;
+    height: 48px;
+    color: white;
 }
 
 button.over2 {
     width: 198px;
     height: 48px;
     position: relative;
-    top: 285px;
-    left: 200px;
+    bottom: 630px;
+    left: 375px;
 }
 
 /* --------------------------------- */
@@ -37,6 +94,7 @@ div.tional {
     left: 90px;
     display: inline-flex;
     bottom: 30px;
+
 }
 
 div.tional1 {
@@ -44,7 +102,7 @@ div.tional1 {
     height: 280px;
     position: relative;
     border-radius: 8px;
-    background: rgba(0, 0, 0, 0.4);
+
 }
 
 div.tional2 {
@@ -53,8 +111,6 @@ div.tional2 {
     left: 29px;
     position: relative;
     border-radius: 8px;
-    background: rgba(0, 0, 0, 0.4);
-
 }
 
 div.tional3 {
@@ -63,7 +119,6 @@ div.tional3 {
     left: 57px;
     position: relative;
     border-radius: 8px;
-    background: rgba(0, 0, 0, 0.4);
 }
 
 p.tio {
@@ -71,13 +126,14 @@ p.tio {
     height: 58px;
     position: relative;
     left: 60px;
-    top: 100px;
-    font-size: 24px;
+    bottom: 190px;
+    font-size: 26px;
     font-weight: 700;
     line-height: 29px;
     letter-spacing: 0.003em;
     text-align: left;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(16, 15, 15);
+    font-weight: bold;
 }
 
 p.tio1 {
@@ -85,11 +141,11 @@ p.tio1 {
     font-weight: 600;
     line-height: 19px;
     letter-spacing: 0.005em;
-    text-align: left;
     position: relative;
     left: 60px;
-    top: 110px;
-    color: rgba(255, 255, 255, 1);
+    bottom: 200px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
 }
 
 div.reandpe6 {
@@ -254,4 +310,17 @@ div.footer5 {
     top: 1200px;
     position: relative;
     left: 104px;
+}
+
+@media screen and (max-width:389px) {
+    div.Home {
+        position: relative;
+        width: 100%;
+        background-color: white;
+    }
+
+    .Navbar {
+        width: 389px;
+        display: inline-block;
+    }
 }
